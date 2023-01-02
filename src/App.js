@@ -1,8 +1,12 @@
 import React from 'react'
+import OurWork from './Components/OurWork/OurWork'
+
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <OurWork />
+    </div>
   )
 }
 
