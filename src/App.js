@@ -1,4 +1,5 @@
 import React from 'react'
+import Card from './Components/Card/Card'
 import Header from './Components/Header/Header'
 import OurWork from './Components/OurWork/OurWork'
 
@@ -7,6 +8,7 @@ const App = () => {
     <div>
       <Header />
       <OurWork />
+      <Card />
     </div>
   )
 }
