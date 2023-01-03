@@ -4,7 +4,6 @@
 }
 .our-works-heading{
     text-align: center;
-    margin-bottom: 20px;
     color: #6b645d;
 }
 .marquee-container {
@@ -25,6 +24,18 @@
     object-fit: cover;
     border-radius: 10px;
 }
+.work-image-div:hover  {
+    transform: scale(1.15);
+    transition: 300ms ease-in-out;
+}
+.marquee-container {
+    height: 350px;
+    overflow-x: hidden !important;
+    /* margin-top: 10px; */
+}
 .overlay::after,.overlay::before {
     display: none;
+}
+.work-modal{
+    background-color: transparent;
 }
