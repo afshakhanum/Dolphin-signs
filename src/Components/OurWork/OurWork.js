@@ -4,6 +4,8 @@ import './OurWork.css'
 const OurWork = () => {
   return (
     <div>
+            <h1 className='our-works-heading'>Our Works</h1>
+
         <Marquee
         speed={120}
         pauseOnHover={true}
