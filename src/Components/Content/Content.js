@@ -1,8 +1,16 @@
 import React from 'react'
+import Card from '../Card/Card'
+import './Content.css'
 
 const Content = () => {
   return (
-    <div>Content</div>
+    <div className='content-main'>
+      <div className='content-container'>
+        <Card />
+        <Card />
+        <Card />
+      </div>
+    </div>
   )
 }
 

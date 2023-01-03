@@ -1,0 +1,7 @@
+.content-main{
+    width: 90%;
+}
+.content-container{
+    margin: 0 auto;
+    display: flex;
+}

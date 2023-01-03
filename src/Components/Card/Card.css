@@ -1,7 +1,7 @@
 .card-container {
-    width: 240px;
-    height: 160px;
-    background-color: aquamarine;
+    width: 300px;
+    height: 290px;
+    /* background-color: aquamarine; */
     border-radius: 20px;
     margin: 10px;
     padding: 10px;
@@ -17,10 +17,25 @@
     height: 100%;
     width: 100%;
     opacity: 0;
-    transition: 1.5s ease;
+    transition: 1s ease;
+    border-radius: 20px;
+    background-color: blue;
 }
-.card-container:hover .card-overlay{
+
+.card-container:hover .card-overlay {
     opacity: 1;
     background-color: blue;
-    border-radius: 20px;
+}
+
+.text {
+    width: 240px;
+    font-size: 20px;
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
