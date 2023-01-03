@@ -24,6 +24,9 @@
     object-fit: cover;
     border-radius: 10px;
 }
+.ant-modal-footer {
+    display: none;
+}
 .work-image-div:hover  {
     transform: scale(1.15);
     transition: 300ms ease-in-out;
@@ -38,8 +41,34 @@
 }
 .work-modal{
     background-color: transparent;
+    text-align: center;
+}
+.modal-image-container{
+    width:100%;
+}
+.modal-text-container{
+    width: 50%;
+    margin-left: 10px;
 }
 .modal-main-conatiner{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+}
+.modal-image{
+    width: 100%;
+    height: 167px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.modal-whatsapp-container{
+    margin-top: 20px;
+}
+.whatsapp-logo{
+    width: 60px;
+}
+@media screen and (min-width:600px) {
+    .modal-image {
+        width: 100%;
+        height: 400px;
+    }
 }
