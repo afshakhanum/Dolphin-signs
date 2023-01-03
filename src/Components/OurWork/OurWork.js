@@ -1,8 +1,9 @@
 import {React,useState} from 'react'
 import Marquee from "react-fast-marquee";
-import { Button, Modal } from 'antd';
+import { Modal } from 'antd';
 import WhatsappLogo from '../Images/WhatsApp.png'
 import './OurWork.css'
+
 const OurWork = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
