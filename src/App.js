@@ -5,6 +5,7 @@ import './App.css'
 import Intro from './Components/Introduction/Intro'
 import Content from './Components/Content/Content'
 import Clients from './Components/Clients/Clients'
+import Footer from './Components/Footer/Footer'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <OurWork />
       <Content />
       <Clients />
+      <Footer />
     </div>
   )
 }
