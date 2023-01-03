@@ -3,8 +3,9 @@
     background-color: #6b645d;
     color: #ffcb2d;
     text-align: center;
-    padding: 30px 50px;
+    padding: 80px 50px;
     margin-bottom: 45px;
+    border-radius: 20px;
 }
 .container h1, p{
     background-color: #6b645d;
