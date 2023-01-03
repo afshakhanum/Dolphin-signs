@@ -1,5 +1,7 @@
 .header-container{
     width: 100%;
     height: 20px;
-    background-color: rgb(88, 174, 249);
+    font-weight: bolder;
+    text-align: center;
+    /* background-color: #ff6969; */
 }
