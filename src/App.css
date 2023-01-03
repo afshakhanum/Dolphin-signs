@@ -1,5 +1,7 @@
 *{
   box-sizing: border-box;
-  margin: 0px;
+  margin: 0px auto;
   padding: 0px;
+  width: 90vw;
+  background-color: #f2f2f2;
 }
