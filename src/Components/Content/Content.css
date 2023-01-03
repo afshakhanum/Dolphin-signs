@@ -1,12 +1,16 @@
-.content-main{
+.content-main {
     width: 90%;
     margin-top: 45px;
 }
+
 .content-main h1 {
     text-align: center;
     color: #6B645d;
+    margin-bottom: 10px;
 }
-.content-container{
+
+.content-container {
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
 }

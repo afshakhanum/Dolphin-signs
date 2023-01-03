@@ -7,9 +7,9 @@ const Content = () => {
     <div className='content-main'>
       <h1>Our Services</h1>
       <div className='content-container'>
-        <Card />
-        <Card />
-        <Card />
+        <Card className='card-container'/>
+        <Card className='card-container'/>
+        <Card className='card-container'/>
       </div>
     </div>
   )
