@@ -7,6 +7,6 @@
     margin-bottom: 45px;
     border-radius: 20px;
 }
-.container h1, p{
+.title, .intro-content{
     background-color: #6b645d;
 }
