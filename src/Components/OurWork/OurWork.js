@@ -1,5 +1,6 @@
 import React from 'react'
 import Marquee from "react-fast-marquee";
+import './OurWork.css'
 const OurWork = () => {
   return (
     <div>
@@ -7,14 +8,33 @@ const OurWork = () => {
         speed={120}
         pauseOnHover={true}
         >
-  I can be a React component, multiple React components, or just some text.
-  I can be a React component, multiple React components, or just some text.
-  I can be a React component, multiple React components, or just some text.
-  I can be a React component, multiple React components, or just some text.
-  I can be a React component, multiple React components, or just some text.
-  I can be a React component, multiple React components, or just some text.
-  
-</Marquee>
+          <div  className='work-image-div'>
+          </div>  
+          <div  className='work-image-div'>
+          </div>  
+          <div  className='work-image-div'>
+          </div>  
+          <div  className='work-image-div'>
+          </div>  
+          <div  className='work-image-div'>
+          </div>  
+          <div  className='work-image-div'>
+          </div>  
+          <div  className='work-image-div'>
+          </div>  
+          <div  className='work-image-div'>
+          </div>  
+          <div  className='work-image-div'>
+          </div>  
+          <div  className='work-image-div'>
+          </div>  
+          <div  className='work-image-div'>
+          </div>  
+          <div  className='work-image-div'>
+          </div>  
+          <div  className='work-image-div'>
+          </div>  
+        </Marquee>
     </div>
   )
 }
