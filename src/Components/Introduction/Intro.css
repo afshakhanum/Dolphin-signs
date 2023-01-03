@@ -1,12 +1,20 @@
+.wrapper{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://s.tmimgcdn.com/scr/1200x750/148800/golden-logo-mockup-store-sign-fassade-elegantes-produktmodell_148841-original.jpg');
+    background-attachment: fixed;
+    margin-bottom: 35px;
+}
 .container{
     width: 90%;
-    background-color: #6b645d;
-    color: #ffcb2d;
+    background-color: rgb(0,0,0,0.4);
+    color: white;
     text-align: center;
     padding: 80px 50px;
-    margin-bottom: 45px;
     border-radius: 20px;
 }
-.title, .intro-content{
-    background-color: #6b645d;
+.title, .intro-content{ 
+    /* background-color: #cbab; */
 }
