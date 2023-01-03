@@ -3,7 +3,7 @@ import './Header.css'
 const Header = () => {
   return (
     <div className='header-container'>
-        LOGO
+        <h1>LOGO</h1>
     </div>
   )
 }

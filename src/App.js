@@ -7,7 +7,7 @@ import Content from './Components/Content/Content'
 
 const App = () => {
   return (
-    <div>
+    <div className='app-container'>
       <Header />
       <Intro />
       <OurWork />
