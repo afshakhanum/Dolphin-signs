@@ -3,11 +3,11 @@ import './Card.css'
 
 const Card = () => {
     return (
-        <div>
+        <div className='card-main'>
             <div className='card-container'>
                 <img />
                 <div className='card-overlay'>
-                    <p>dddd</p>
+                    <p className='text'>dddd</p>
                 </div>
             </div>
         </div>
