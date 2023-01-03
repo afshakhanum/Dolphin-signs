@@ -1,5 +1,11 @@
 .container{
     width: 90%;
     background-color: #6b645d;
-    height: 50px;
+    /* height: 50px; */
+    color: #ffcb2d;
+    text-align: center;
+    padding: 30px 50px;
+}
+h1, p{
+    background-color: #6b645d;
 }
