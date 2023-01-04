@@ -6,7 +6,7 @@ const Card = (props) => {
         <div className='card-main'>
             <div className={props.className}>
                 <img />
-                <div className='card-overlay'>
+                <div className='cards-overlay'>
                     <p className='text'>dddd</p>
                 </div>
             </div>
