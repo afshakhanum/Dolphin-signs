@@ -66,6 +66,9 @@
 .whatsapp-logo{
     width: 60px;
 }
+.our-work-marquee-container{
+
+}
 @media screen and (min-width:600px) {
     .modal-image {
         width: 100%;

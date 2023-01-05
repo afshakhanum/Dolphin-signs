@@ -17,7 +17,7 @@ const OurWork = () => {
     setIsModalOpen(false);
   };
   return (
-    <div>
+    <div className='our-work-marquee-container'>
             <h1 className='our-works-heading'>Our Works</h1>
         <Marquee
         speed={120}
