@@ -1,5 +1,5 @@
 import React from 'react'
-import Cards from './Cards'
+import Card from '../Card/Card'
 import './Clients.css'
 
 const Clients = () => {
@@ -7,9 +7,9 @@ const Clients = () => {
         <div className='content-main'>
         <h1>Our Clients</h1>
         <div className='content-container'>
-          <Cards />
-          <Cards />
-          <Cards />
+          <Card className='card-container'/>
+          <Card className='card-container'/>
+          <Card className='card-container'/>
         </div>
       </div>
     )
