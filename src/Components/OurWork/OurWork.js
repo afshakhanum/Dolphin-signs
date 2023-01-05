@@ -3,7 +3,17 @@ import Marquee from "react-fast-marquee";
 import { Modal } from 'antd';
 import WhatsappLogo from '../Images/WhatsApp.png'
 import './OurWork.css'
-
+import WorkOne from '../Images/workOne.png'
+import WorkTwo from '../Images/workTwo.png'
+import WorkThree from '../Images/workThree.png'
+import WorkFour from '../Images/workFour.png'
+import WorkFive from '../Images/workFive.png'
+import WorkSix from '../Images/workSix.png'
+import WorkSeven from '../Images/workSeven.png'
+import WorkEight from '../Images/workEight.png'
+import WorkNine from '../Images/workNine.png'
+import WorkTen from '../Images/workTen.png'
+import WorkEleven from '../Images/workEleven.png'
 const OurWork = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -20,38 +30,41 @@ const OurWork = () => {
     <div className='our-work-marquee-container'>
             <h1 className='our-works-heading'>Our Works</h1>
         <Marquee
-        speed={120}
+        speed={90}
         pauseOnHover={true}
         >
           <div onClick={showModal} className='work-image-div'>
-            <img className='our-work-image' src='https://5.imimg.com/data5/ST/XR/MY-39486235/3d-sign-board-500x500.jpg' alt='img1' />
+            <img className='our-work-image' src={WorkOne} alt='img1' />
           </div>  
           <div onClick={showModal} className='work-image-div'>
-            <img className='our-work-image' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXgKSMp9BF0HWtfI2JVT028IFhNIm_akspi6phkjGSvYMcoYDgVthbPmeJlZcH30Y9N-o&usqp=CAU' alt='img2' />
+            <img className='our-work-image' src={WorkTwo} alt='img2' />
           </div>  
           <div onClick={showModal} className='work-image-div'>
-            <img className='our-work-image' src='https://5.imimg.com/data5/YK/BI/RV/ANDROID-6961708/prod-20200116-1232174277009699058598341-jpg-500x500.jpg' alt='img3' />
+            <img className='our-work-image' src={WorkThree} alt='img3' />
           </div>  
           <div onClick={showModal} className='work-image-div'>
-            <img className='our-work-image' src='https://5.imimg.com/data5/SW/JG/MY-23538688/stainless-steel-sign-board-500x500.jpg' alt='img4' />
+            <img className='our-work-image' src={WorkFour} alt='img4' />
           </div>  
           <div onClick={showModal} className='work-image-div'>
-            <img className='our-work-image' src='https://5.imimg.com/data5/ET/XZ/YY/SELLER-2180527/led-signage-board-500x500.jpg' alt='img5' />
+            <img className='our-work-image' src={WorkFive} alt='img5' />
           </div>  
           <div onClick={showModal} className='work-image-div'>
-            <img className='our-work-image' src='https://5.imimg.com/data5/GH/IU/HR/SELLER-3836831/led-sign-board-500x500.jpg' alt='img6' />
+            <img className='our-work-image' src={WorkSix} alt='img6' />
           </div>  
           <div onClick={showModal} className='work-image-div'>
-            <img className='our-work-image' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxLTJnHijl5BDRzhRTQei5zUyd7-UXSjImM6HvnBAqgbjq7uz4m_xDZBT8JunOUDB2RW0&usqp=CAU' alt='img7' />
+            <img className='our-work-image' src={WorkSeven} alt='img7' />
           </div>  
           <div onClick={showModal} className='work-image-div'>
-            <img className='our-work-image' src='https://5.imimg.com/data5/SELLER/Default/2020/11/NP/JH/KL/63230126/acrylic-led-glow-sign-board-500x500.jpg' alt='img8' />
+            <img className='our-work-image' src={WorkEight} alt='img8' />
           </div>  
           <div onClick={showModal} className='work-image-div'>
-            <img className='our-work-image' src='https://nexusgroups.in/uploads/productimage/7870led-sign-board-500x500.jpg' alt='img9' />
+            <img className='our-work-image' src={WorkNine} alt='img9' />
           </div>  
           <div onClick={showModal} className='work-image-div'>
-            <img className='our-work-image' src='https://signagemumbai.in/wp-content/uploads/2018/01/dr.chang_.jpg' alt='img10' />
+            <img className='our-work-image' src={WorkTen} alt='img9' />
+          </div>  
+          <div onClick={showModal} className='work-image-div'>
+            <img className='our-work-image' src={WorkEleven} alt='img9' />
           </div>  
         </Marquee>
 
