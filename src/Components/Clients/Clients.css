@@ -27,13 +27,13 @@
     margin-bottom: 30px;
 }
 
-.client-card:hover .card-overlay {
+.client-card:hover .client-overlay {
     /* transform: rotateY(179deg); */
     opacity: 1;
-    background-color: #6B645d;
+    /* background-color: rgb(107, 100, 93,0.4); */
 }
 
-.card-overlay {
+.client-overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -44,14 +44,16 @@
     opacity: 0;
     transition: 1s ease;
     border-radius: 20px;
-    background-color: #6B645d;
+    background-color: rgb(107, 100, 93,0.4);
 }
 
-.text {
+.client-text {
     width: 240px;
-    font-size: 20px;
-    background-color: #6B645d;
-    color: #ffcb2d;
+    font-size: 16px;
+    text-align: left;
+    /* background-color: rgb(107, 100, 93,0.2); */
+    /* color: #ffcb2d; */
+    color: white;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -64,10 +66,8 @@
     width: 300px;
     height: 208px;
     border-radius: 20px;
-    margin: 10px;
-    padding: 10px;
+    margin: -10px;
     position: relative;
-    box-shadow: 0px 0px 10px 0px #ffcb2d;
     margin-bottom: 30px;
 
 }
