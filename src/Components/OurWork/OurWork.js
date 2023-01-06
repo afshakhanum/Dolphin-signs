@@ -80,7 +80,7 @@ const OurWork = () => {
           </div>
           <div className='modal-whatsapp-container'>
             <p>To make this design your click on below Whatsapp</p>
-            <a  href="https://api.whatsapp.com/send?phone=+918618392962&text=Hello owaiz, I want this design detail%21%." target="_blank" rel="noreferrer"><img  className='whatsapp-logo' src={WhatsappLogo} alt='whatsapp' /></a>
+            <a  href="https://api.whatsapp.com/send?phone=+919164398851&text=Hello, I want this design details%21." target="_blank" rel="noreferrer"><img  className='whatsapp-logo' src={WhatsappLogo} alt='whatsapp' /></a>
           </div>
       </Modal>
     </div>
