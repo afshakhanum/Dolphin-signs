@@ -1,0 +1,72 @@
+.form-main{
+    width: 83%;
+    margin-top: 45px;
+}
+.form-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #6B645d;
+}
+.form-section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+.form-img{
+    width: 100%;
+}
+.input-section{
+    margin-bottom: 15px;
+    width: 100%;
+}
+.img-sec{
+    width: 100%;
+}
+.input-section input {
+    background-color: transparent !important;
+    border-style: none;
+    border-bottom: 1px solid #6B645d;
+    outline: none;
+    width: 100%;
+    padding: 8px;
+}
+.input-section textarea{
+    background-color: transparent !important;
+    border-style: none;
+    border-bottom: 1px solid #6B645d;
+    outline: none;
+    width: 100%;
+    padding: 5px;
+    padding-bottom: 40px;
+}
+.input-section button{
+    padding: 10px 10px 10px 10px;
+    color: #6B645d;
+    border: 1px solid #6B645d;
+    border-radius: 5px;
+    
+}
+.form-input::placeholder{
+    font-size: 16px;
+    color: #6B645d;
+}
+
+@media screen and (min-width:600px) {
+    .input-section{
+        width: 50%;
+    }
+    .img-sec{
+        width: 50%;
+    }
+    .input-section input{
+        width: 90%;
+    }
+    .input-section textarea{
+        width: 90%;
+    }
+    .form-section{
+        flex-direction: row;
+    }
+}
+

@@ -6,6 +6,7 @@ import Intro from './Components/Introduction/Intro'
 import Content from './Components/Content/Content'
 import Clients from './Components/Clients/Clients'
 import Footer from './Components/Footer/Footer'
+import Form from './Components/Form/Form'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Header />
       <Intro />
       <OurWork />
+      <Form />
       <Content />
       <Clients />
       <Footer />

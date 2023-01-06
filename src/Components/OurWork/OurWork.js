@@ -30,8 +30,8 @@ const OurWork = () => {
     <div className='our-work-marquee-container'>
             <h1 className='our-works-heading'>Our Works</h1>
         <Marquee
-        speed={90}
         pauseOnHover={true}
+        speed={100}
         >
           <div onClick={showModal} className='work-image-div'>
             <img className='our-work-image' src={WorkOne} alt='img1' />
