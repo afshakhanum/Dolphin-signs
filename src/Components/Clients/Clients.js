@@ -12,7 +12,7 @@ import Leap from '../Images/Leap.png'
 const Clients = () => {
   return (
     <div className='client-main'>
-      <h1>Our Clients</h1>
+      <h1>Our Esteemed Clients</h1>
       <div className='client-container'>
         <div className='client-card'>
           <img className='client-img' src={Laddoos} alt='laddoo'/>
